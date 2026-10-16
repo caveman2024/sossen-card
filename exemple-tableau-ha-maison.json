@@ -1,0 +1,68 @@
+{
+ "views": [
+  {
+   "title": "Onduleurs",
+   "path": "onduleurs",
+   "type": "sections",
+   "max_columns": 2,
+   "theme": "Aurore",
+   "background": "linear-gradient(165deg, #0e1d4a 0%, #1b1a5c 38%, #33186a 72%, #4a1663 100%) fixed",
+   "sections": [
+    {
+     "type": "grid",
+     "cards": [
+      {
+       "type": "custom:sossen-inverter-card",
+       "device": "ecc7579177762c8a7c3f433fa95999f2"
+      }
+     ]
+    },
+    {
+     "type": "grid",
+     "cards": [
+      {
+       "type": "custom:sossen-inverter-card",
+       "device": "3354467dfe6f61e8b1b886d1a564bee6"
+      }
+     ]
+    },
+    {
+     "type": "grid",
+     "cards": [
+      {
+       "type": "custom:sossen-inverter-card",
+       "device": "1ab5c2239b08939c06db8a24547d86ef"
+      }
+     ]
+    },
+    {
+     "type": "grid",
+     "cards": [
+      {
+       "type": "custom:sossen-inverter-card",
+       "device": "8e6f69b0265dc0d1f38af3559cb9d4c8"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Ensemble",
+   "path": "ensemble",
+   "type": "sections",
+   "max_columns": 1,
+   "theme": "Aurore",
+   "background": "linear-gradient(165deg, #0e1d4a 0%, #1b1a5c 38%, #33186a 72%, #4a1663 100%) fixed",
+   "sections": [
+    {
+     "type": "grid",
+     "cards": [
+      {
+       "type": "custom:sossen-card"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
