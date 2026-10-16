@@ -52,6 +52,62 @@ const TXT = {
     temperature: 'Temperature', rendement: 'Efficiency', max_modele: 'model max', commandes: (n) => `${n} limit commands received`,
     tension_ac: 'Voltage', limite_maj: 'Limit', panneaux: 'Panels', part: 'of production', de_limite: 'of the limit',
   },
+  de: {
+    titre: 'Solar', en_prod: (n, t) => `${n}/${t} in Betrieb`, aujourdhui: 'heute', au_repos: 'Ruhezustand',
+    producing: 'In Betrieb', alarm: 'Alarm', off: 'Aus', hors_ligne: 'Offline', bride: 'Gedrosselt',
+    limite: 'Limit', panneau: 'Modul', tension: 'Netzspannung', max: 'max', protection: 'Schutz',
+    prot_on: 'Schutz aktiv', prot_off: 'Schutz aus', coupure: 'Abschaltung', seuils: 'Schwellen',
+    graphe: 'Erzeugung und Spannung', production: 'Erzeugung', aucun: 'Kein SOSSEN-Direct-Wechselrichter gefunden.',
+    aucun2: 'Installiere die Integration SOSSEN Direct oder gib die Wechselrichter in der Kartenkonfiguration an.',
+    nuit: 'Die Wechselrichter schlafen: Sie wachen mit der Sonne auf.', autorise: 'erlaubt',
+    e_titre: 'Titel', e_onduleurs: 'Wechselrichter (leer = alle)', e_tension: 'Spannung und Schutz',
+    e_panneaux: 'Moduldetails', e_graphe: 'Tagesdiagramm', e_compact: 'Kompakt',
+    e_onduleur: 'Wechselrichter', choisir: 'Wähle einen Wechselrichter in der Kartenkonfiguration.', frequence: 'Frequenz',
+    temperature: 'Temperatur', rendement: 'Wirkungsgrad', max_modele: 'Modell-Max.', commandes: (n) => `${n} Limit-Befehle empfangen`,
+    tension_ac: 'Spannung', limite_maj: 'Limit', panneaux: 'Module', part: 'der Erzeugung', de_limite: 'des Limits',
+  },
+  es: {
+    titre: 'Solar', en_prod: (n, t) => `${n}/${t} produciendo`, aujourdhui: 'hoy', au_repos: 'En reposo',
+    producing: 'Produciendo', alarm: 'Alarma', off: 'Apagado', hors_ligne: 'Sin conexión', bride: 'Limitado',
+    limite: 'límite', panneau: 'Panel', tension: 'Tensión de red', max: 'máx.', protection: 'Protección',
+    prot_on: 'Protección activa', prot_off: 'Protección desactivada', coupure: 'desconexión', seuils: 'umbrales',
+    graphe: 'Producción y tensión', production: 'Producción', aucun: 'No se ha encontrado ningún inversor SOSSEN Direct.',
+    aucun2: 'Instala la integración SOSSEN Direct o indica los inversores en la configuración de la tarjeta.',
+    nuit: 'Los inversores duermen: se despiertan con el sol.', autorise: 'permitidos',
+    e_titre: 'Título', e_onduleurs: 'Inversores (vacío = todos)', e_tension: 'Tensión y protección',
+    e_panneaux: 'Detalle de los paneles', e_graphe: 'Gráfico del día', e_compact: 'Compacta',
+    e_onduleur: 'Inversor', choisir: 'Elige un inversor en la configuración de la tarjeta.', frequence: 'Frecuencia',
+    temperature: 'Temperatura', rendement: 'Rendimiento', max_modele: 'máx. del modelo', commandes: (n) => `${n} órdenes de límite recibidas`,
+    tension_ac: 'Tensión', limite_maj: 'Límite', panneaux: 'Paneles', part: 'de la producción', de_limite: 'del límite',
+  },
+  it: {
+    titre: 'Solare', en_prod: (n, t) => `${n}/${t} in produzione`, aujourdhui: 'oggi', au_repos: 'A riposo',
+    producing: 'In produzione', alarm: 'Allarme', off: 'Spento', hors_ligne: 'Non in linea', bride: 'Limitato',
+    limite: 'limite', panneau: 'Pannello', tension: 'Tensione di rete', max: 'max', protection: 'Protezione',
+    prot_on: 'Protezione attiva', prot_off: 'Protezione disattivata', coupure: 'distacco', seuils: 'soglie',
+    graphe: 'Produzione e tensione', production: 'Produzione', aucun: 'Nessun inverter SOSSEN Direct trovato.',
+    aucun2: "Installa l'integrazione SOSSEN Direct o indica gli inverter nella configurazione della scheda.",
+    nuit: 'Gli inverter dormono: si svegliano con il sole.', autorise: 'consentiti',
+    e_titre: 'Titolo', e_onduleurs: 'Inverter (vuoto = tutti)', e_tension: 'Tensione e protezione',
+    e_panneaux: 'Dettaglio dei pannelli', e_graphe: 'Grafico del giorno', e_compact: 'Compatta',
+    e_onduleur: 'Inverter', choisir: "Scegli un inverter nella configurazione della scheda.", frequence: 'Frequenza',
+    temperature: 'Temperatura', rendement: 'Rendimento', max_modele: 'max del modello', commandes: (n) => `${n} comandi di limite ricevuti`,
+    tension_ac: 'Tensione', limite_maj: 'Limite', panneaux: 'Pannelli', part: 'della produzione', de_limite: 'del limite',
+  },
+  nl: {
+    titre: 'Zonne-energie', en_prod: (n, t) => `${n}/${t} in productie`, aujourdhui: 'vandaag', au_repos: 'In rust',
+    producing: 'In productie', alarm: 'Alarm', off: 'Uit', hors_ligne: 'Offline', bride: 'Begrensd',
+    limite: 'limiet', panneau: 'Paneel', tension: 'Netspanning', max: 'max', protection: 'Beveiliging',
+    prot_on: 'Beveiliging actief', prot_off: 'Beveiliging uit', coupure: 'afschakeling', seuils: 'drempels',
+    graphe: 'Productie en spanning', production: 'Productie', aucun: 'Geen SOSSEN Direct-omvormer gevonden.',
+    aucun2: 'Installeer de integratie SOSSEN Direct of geef de omvormers op in de kaartconfiguratie.',
+    nuit: 'De omvormers slapen: ze worden wakker met de zon.', autorise: 'toegestaan',
+    e_titre: 'Titel', e_onduleurs: 'Omvormers (leeg = alle)', e_tension: 'Spanning en beveiliging',
+    e_panneaux: 'Paneeldetails', e_graphe: 'Grafiek van vandaag', e_compact: 'Compact',
+    e_onduleur: 'Omvormer', choisir: 'Kies een omvormer in de kaartconfiguratie.', frequence: 'Frequentie',
+    temperature: 'Temperatuur', rendement: 'Rendement', max_modele: 'max. van het model', commandes: (n) => `${n} limietopdrachten ontvangen`,
+    tension_ac: 'Spanning', limite_maj: 'Limiet', panneaux: 'Panelen', part: 'van de productie', de_limite: 'van de limiet',
+  },
 };
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -112,7 +168,7 @@ ha-card.clair{--sc-solaire-txt:#a87400;--sc-alerte:#c25e00;--sc-coupure:#d70015;
 .ond.eteint{opacity:.62}
 .ond .nom{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:700;min-width:0}
 .ond .nom span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ond .ligw{display:flex;align-items:center;justify-content:space-between;gap:6px;min-width:0}
+.ond .ligw{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:2px 6px;min-width:0}
 .ond .badge{flex:none;font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:9px;white-space:nowrap;
   background:color-mix(in srgb,var(--sc-alerte) 18%,transparent);color:var(--sc-alerte)}
 .ond .badge.rouge{background:color-mix(in srgb,var(--sc-coupure) 18%,transparent);color:var(--sc-coupure)}
